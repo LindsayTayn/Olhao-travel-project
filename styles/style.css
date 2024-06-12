@@ -9,12 +9,19 @@ body {
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
 }
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-footer {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -57,6 +64,36 @@ header a {
   text-decoration: none;
   text-transform: uppercase;
 }
+main {
+  background-color: whitesmoke;
+}
+.image-responsive {
+  max-width: 100%;
+}
+main h2 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5px;
+  letter-spacing: 5px;
+  margin: 0;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+main h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.5px;
+  color: #272044;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+main p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #272044;
+}
 footer {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
@@ -66,7 +103,6 @@ footer {
   color: whitesmoke;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 footer h3 {
   font-weight: 700;
@@ -102,5 +138,18 @@ footer a {
   header h2,
   h3 {
     font-size: 20px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
+    text-align: center;
+  }
+  main h3 {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 30px;
   }
 }
