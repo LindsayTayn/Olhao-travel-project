@@ -110,7 +110,7 @@ main {
   display: block;
 }
 main h2 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 5px;
@@ -122,7 +122,7 @@ main h2 {
 main h3 {
   font-size: 40px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1;
   color: #272044;
   margin-bottom: 35px;
 }
