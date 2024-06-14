@@ -52,11 +52,14 @@ body {
 }
 section {
   margin: 0 auto;
-  padding: 100px;
+  padding: 90px;
   max-width: 100%;
 }
 section.secondary {
   background-color: #f8f8f8;
+}
+section.tertiary img {
+  margin-top: 10px;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -107,7 +110,7 @@ main {
   display: block;
 }
 main h2 {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1.5;
   letter-spacing: 5px;
