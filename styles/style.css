@@ -202,11 +202,13 @@ footer a {
     padding: 30px;
     text-align: center;
   }
+
   main h3 {
     font-size: 20px;
     margin-top: 35px;
     margin-bottom: 30px;
   }
+
   .card-header img {
     aspect-ratio: 16/9;
   }
